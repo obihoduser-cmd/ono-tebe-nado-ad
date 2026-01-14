@@ -1,45 +1,38 @@
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  min-width: 1100px;
-  font-family: "Raleway", Arial, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
   width: 1100px;
   margin: 0 auto;
+  font-family: Raleway, sans-serif;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
   margin: 0;
+  padding: 0;
 }
 
 a {
   color: inherit;
-  text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 button {
-  font-family: inherit;
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
-address {
-  font-style: normal;
-  line-height: 1.4;
+  font: inherit;
 }
